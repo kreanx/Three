@@ -17,7 +17,7 @@ const Contact = () => {
 
 	const [loading, setLoading] = useState(false)
 
-	const handleChange = (e) => {
+	const handleChange = (e: any) => {
 		const { target } = e
 		const { name, value } = target
 
@@ -76,7 +76,6 @@ const Contact = () => {
 				<h3 className={styles.sectionHeadText}>Contact.</h3>
 
 				<form
-					ref={formRef}
 					onSubmit={handleSubmit}
 					className="mt-12 flex flex-col gap-8"
 				>
