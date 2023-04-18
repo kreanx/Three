@@ -10,5 +10,5 @@ export default defineConfig({
 			'@assets': path.resolve(__dirname, 'src/assets'),
 		},
 	},
-	base: 'https://github.com/kreanx/Three/tree/main/dist'
+	base: 'https://github.com/kreanx/Three/tree'
 })
