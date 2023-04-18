@@ -10,19 +10,25 @@ import {
 	reactjs,
 	redux,
 	tailwind,
-	nodejs,
-	mongodb,
 	git,
 	figma,
-	docker,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
+	storybook,
+	dsr,
+	udemy,
+	redcollar,
+	neoflex,
 	carrent,
 	jobit,
 	tripguide,
 	threejs,
+	neoflex2,
+	tictac,
+	todo,
+	got,
+	pic,
+	window,
+	puls,
+	test
 } from '../assets'
 
 export const navLinks = [
@@ -42,19 +48,19 @@ export const navLinks = [
 
 const services = [
 	{
-		title: 'Web Developer',
+		title: 'Сross-browser',
 		icon: web,
 	},
 	{
-		title: 'React Native Developer',
+		title: 'Bundle optimization',
 		icon: mobile,
 	},
 	{
-		title: 'Backend Developer',
+		title: 'SPA / SSR',
 		icon: backend,
 	},
 	{
-		title: 'Content Creator',
+		title: 'React & Zustand | Redux',
 		icon: creator,
 	},
 ]
@@ -89,14 +95,6 @@ const technologies = [
 		icon: tailwind,
 	},
 	{
-		name: 'Node JS',
-		icon: nodejs,
-	},
-	{
-		name: 'MongoDB',
-		icon: mongodb,
-	},
-	{
 		name: 'Three JS',
 		icon: threejs,
 	},
@@ -109,62 +107,57 @@ const technologies = [
 		icon: figma,
 	},
 	{
-		name: 'docker',
-		icon: docker,
+		name: 'storybook',
+		icon: storybook,
 	},
 ]
 
 const experiences = [
 	{
-		title: 'React.js Developer',
-		company_name: 'Starbucks',
-		icon: starbucks,
+		title: 'WEB-developer',
+		company_name: 'Udemy',
+		icon: udemy,
 		iconBg: '#383E56',
-		date: 'March 2020 - April 2021',
+		date: 'March 2021 - June 2021',
 		points: [
-			'Developing and maintaining web applications using React.js and other related technologies.',
-			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+			'Familiarity with the basics of markup, semantics and styling.',
+			'First layouts.',
 			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.',
 		],
 	},
 	{
-		title: 'React Native Developer',
-		company_name: 'Tesla',
-		icon: tesla,
+		title: 'Frontend developer internship',
+		company_name: 'RedCollar',
+		icon: redcollar,
 		iconBg: '#E6DEDD',
-		date: 'Jan 2021 - Feb 2022',
+		date: 'May 2022 - December 2022',
 		points: [
 			'Developing and maintaining web applications using React.js and other related technologies.',
 			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.',
+			'Familiarity with typescript and writing projects on it.',
 		],
 	},
 	{
-		title: 'Web Developer',
-		company_name: 'Shopify',
-		icon: shopify,
+		title: 'The educational center',
+		company_name: 'Neoflex',
+		icon: neoflex,
 		iconBg: '#383E56',
-		date: 'Jan 2022 - Jan 2023',
+		date: 'December 2022 - March 2023',
 		points: [
-			'Developing and maintaining web applications using React.js and other related technologies.',
-			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.',
+			'Teamwork process.',
+			'Active work with api, form validation, memory leak debugging and project optimization.',
+			'Strengthening quick layout skills with and without the use of libraries.',
 		],
 	},
 	{
-		title: 'Full stack Developer',
-		company_name: 'Meta',
-		icon: meta,
+		title: 'JS Bootcamp',
+		company_name: 'DSR',
+		icon: dsr,
 		iconBg: '#E6DEDD',
-		date: 'Jan 2023 - Present',
+		date: 'March 2023 - Present',
 		points: [
-			'Developing and maintaining web applications using React.js and other related technologies.',
-			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.',
+			'Developing and maintaining web applications using React, TS, Effector and other related technologies.',
+			'Work with storybook',
 		],
 	},
 ]
@@ -198,58 +191,74 @@ const testimonials = [
 
 const projects = [
 	{
-		name: 'Car Rent',
+		name: 'Bank app',
 		description:
-			'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+			'Creation of a website that allows users to get information about the bank and order a credit card.',
 		tags: [
 			{
 				name: 'react',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'mongodb',
+				name: 'typescript',
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'tailwind',
+				name: 'redux',
+				color: 'yellow-text-gradient',
+			},
+			{
+				name: 'css',
 				color: 'pink-text-gradient',
 			},
 		],
-		image: carrent,
-		source_code_link: 'https://github.com/',
+		image: neoflex2,
+		source_code_link: 'https://github.com/kreanx/NeoBank',
 	},
 	{
-		name: 'Job IT',
+		name: 'RunSmart',
 		description:
-			'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+			'The site on which the sale of heart rate monitors is implemented.',
+		tags: [
+			{
+				name: 'js',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'css',
+				color: 'green-text-gradient',
+			},
+		],
+		image: puls,
+		source_code_link: 'https://kreanx.github.io/Portfolio/dist/BEMTrain/src/',
+	},
+	{
+		name: 'TicTacToe',
+		description: 'A simple TicTacToe game implemented in react in half an hour',
 		tags: [
 			{
 				name: 'react',
 				color: 'blue-text-gradient',
-			},
-			{
-				name: 'restapi',
-				color: 'green-text-gradient',
 			},
 			{
 				name: 'scss',
 				color: 'pink-text-gradient',
 			},
 		],
-		image: jobit,
-		source_code_link: 'https://github.com/',
+		image: tictac,
+		source_code_link: 'https://kreanx.github.io/TicTacToe/',
 	},
 	{
-		name: 'Trip Guide',
+		name: 'ToDo app',
 		description:
 			'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
 		tags: [
 			{
-				name: 'nextjs',
+				name: 'react',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'supabase',
+				name: 'scss',
 				color: 'green-text-gradient',
 			},
 			{
@@ -257,8 +266,76 @@ const projects = [
 				color: 'pink-text-gradient',
 			},
 		],
-		image: tripguide,
-		source_code_link: 'https://github.com/',
+		image: todo,
+		source_code_link: 'https://kreanx.github.io/React_pannel/',
+	},
+	{
+		name: 'GOT',
+		description:
+			'An app built with React that allows you to view information about books/characters/houses in the Game of Thrones universe.',
+		tags: [
+			{
+				name: 'react',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'scss',
+				color: 'green-text-gradient',
+			},
+		],
+		image: got,
+		source_code_link: 'https://kreanx.github.io/characters',
+	},
+	{
+		name: 'Drawing shop website',
+		description:
+			'Implemented the functionality and layout of a test site for the sale of paintings and sketches.',
+		tags: [
+			{
+				name: 'js',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'css',
+				color: 'green-text-gradient',
+			},
+		],
+		image: pic,
+		source_code_link: 'https://kreanx.github.io/Js_training-1/dist/',
+	},
+	{
+		name: 'Windows shop website',
+		description:
+			'Implemented the functionality and layout of a test site for the sale of windows and sketches.',
+		tags: [
+			{
+				name: 'js',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'css',
+				color: 'green-text-gradient',
+			},
+		],
+		image: window,
+		source_code_link: 'https://kreanx.github.io/Js_training-4/dist/',
+	},
+	{
+		name: 'Training js site',
+		description:
+			'Interesting landing page with implemented animations and js components.',
+		tags: [
+			{
+				name: 'js',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'css',
+				color: 'green-text-gradient',
+			},
+		],
+		image: test,
+		source_code_link: 'https://kreanx.github.io/Js_training-4/dist/',
 	},
 ]
 

@@ -21,14 +21,23 @@ import tailwind from './tech/tailwind.png'
 import typescript from './tech/typescript.png'
 import threejs from './tech/threejs.svg'
 
-import meta from './company/meta.png'
-import shopify from './company/shopify.png'
-import starbucks from './company/starbucks.png'
-import tesla from './company/tesla.png'
+import udemy from './company/udemy.png'
+import dsr from './company/dsr.png'
+import redcollar from './company/redcollar.png'
+import neoflex from './company/neoflex.png'
+import neoflex2 from './company/neoflex.jpg'
+import tictac from './company/tictac.jpg'
+import todo from './company/todo.jpg'
+import got from './company/got.jpg'
+import pic from './company/pic.jpg'
+import window from './company/window.jpg'
+import puls from './company/puls.jpg'
+import test from './company/test.jpg'
 
 import carrent from './carrent.png'
 import jobit from './jobit.png'
 import tripguide from './tripguide.png'
+import storybook from './storybook.png'
 
 export {
 	logo,
@@ -52,11 +61,20 @@ export {
 	tailwind,
 	typescript,
 	threejs,
-	meta,
-	shopify,
-	starbucks,
-	tesla,
 	carrent,
 	jobit,
 	tripguide,
+	storybook,
+	neoflex,
+	dsr,
+	redcollar,
+	udemy,
+	neoflex2,
+	tictac,
+	todo,
+	got,
+	pic,
+	window,
+	puls,
+	test
 }

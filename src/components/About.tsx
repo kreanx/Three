@@ -1,12 +1,12 @@
-/* eslint-disable react/no-unknown-property */
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
 import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
+/* eslint-disable react/no-unknown-property */
 
-const ServiceCard = ({ index, title, icon }) => {
+const ServiceCard: React.FC<any> = ({ index, title, icon }) => {
 	return (
 		<Tilt className="xs:w-[250px] w-full">
 			<motion.div
@@ -32,7 +32,7 @@ const About = () => {
 		<>
 			<motion.div variants={textVariant(0.2)}>
 				<p className={styles.sectionSubText}>Introduction</p>
-				<p className={styles.sectionHeadText}>Overview.</p>
+				<h2 className={styles.sectionHeadText}>Overview.</h2>
 			</motion.div>
 			<motion.p
 				variants={fadeIn('', '', 0.1, 1)}
